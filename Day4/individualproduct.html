@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <style>
+        #individual-cont{
+        width: 90%;
+        margin: auto; 
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+        /* background-color: #f3f3f3; */
+        display: flex;
+        margin-bottom: 10px;
+       border: 1px solid #EEEEEE;
+
+}
+
+#individual-cont>div{
+    display: flex;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+
+  
+}
+#individual-cont>div>div>img{
+    width: 300px;
+   
+}
+#individual-cont>div>div>img:hover{
+    transform: scale(1.1);
+    transition: 1.5s;
+}
+#imgdiv{
+   margin: 5px;
+    
+}
+#detailsdiv{
+    margin: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+
+}
+button{
+    background-color: #0083ca;
+    border: none;
+    width: 100px;
+    padding: 8px;
+    color: white;
+    border-radius: 3px;
+   }
+   button:hover{
+    background-color: white;
+    color: #0083ca;
+    cursor: pointer;
+    border: 1px solid  #0083ca;
+   }
+   h5{
+    color: #0083ca;
+   }
+   hr{
+    width: 90%;
+   }
+   ul {
+  list-style: none;
+}
+
+ul li:before {
+  content: '✅ ';
+}
+.guidline{
+    width: 90%;
+    margin: auto;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+
+}
+#greydiv{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    background-color:#f1fcfd;
+}
+#greydiv>div{
+    line-height: 0;
+    text-align: center;
+    color: #7fc4c8;
+}
+#user{
+    width: 90%;
+    margin: auto;
+    border: 1px solid red;
+}
+#user::before{
+    content: '';
+}
+
+    </style>
+</head>
+<body>
+    <div id="individual-cont">
+<div id="imgdiv">
+
+
+</div>
+<div id="detailsdiv">
+
+</div>
+    </div>
+<hr>
+<div id="greydiv">
+    <div>    <img src="https://teja9.kuikr.com/core/clsfd/assets/ic-get-all-details-2x.png"alt="">
+        <p>Get all details</p>
+    </div>
+    <div>    <img src="https://teja9.kuikr.com/core/clsfd/assets/ic-schedule-visit-bazaar-2x.png" alt="">
+        <p>Schedule a visit</p>
+    </div>
+    <div>    <img src="https://teja9.kuikr.com/core/clsfd/assets/ic-negotiate-2x.png" alt="">
+        <p>Negotiate price</p>
+    </div>
+
+</div>
+    <div class="guidline">
+<h2>Buyers Guidlines</h2>
+<ul>
+    <li >Be careful when paying offline</li>
+    <li>Beware of ads with unrealistic prices, lookalikes or clone products</li>
+    <li>Chat and ask questions to be clear on product details</li>
+    <li>Do not deposit/transfer money to bank or any third party payment gateways without verifying the credentials</li>
+</ul>
+    </div>
+</body>
+<script>
+
+let mobiledata=JSON.parse(localStorage.getItem("mobiles")) ||[]
+
+
+    let container=document.getElementById("individual-cont");
+    let imagdiv=document.getElementById("imgdiv")
+    detaildiv=document.getElementById("detailsdiv")
+
+   
+console.log(mobiledata)
+    function displayData(data){
+    container.innerHTML=""; 
+
+
+let product=document.createElement("div")
+
+let brand=document.createElement("h4")
+brand.textContent=mobiledata.category;
+
+let image=document.createElement("img")
+image.setAttribute("src", mobiledata.image)
+image.style.width="300px"
+image.style.height="300px"
+
+let price=document.createElement("h5")
+price.textContent=`product Price:- ₹${mobiledata.price}`
+
+let productname=document.createElement("h1")
+productname.textContent=mobiledata.title;
+
+let discription=document.createElement("p")
+discription.textContent=`${mobiledata.desc}`
+
+let location=document.createElement("p")
+location.textContent=mobiledata.location;
+
+let cartbtn=document.createElement("button")
+cartbtn.textContent="Add To Cart"
+
+container.append(product)
+product.append(imagdiv, detaildiv)
+imagdiv.append(image) 
+detaildiv.append(productname, brand, discription,price, location, cartbtn)
+
+
+}
+
+displayData(mobiledata)
+</script>
+</html>
