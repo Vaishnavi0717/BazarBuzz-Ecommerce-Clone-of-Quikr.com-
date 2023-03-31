@@ -22,6 +22,8 @@ function showData(arr) {
         let id = document.createElement("td");
         id.innerText = ++x;
 
+
+
         let brand = document.createElement("td")
         brand.innerText = el.title;
 
