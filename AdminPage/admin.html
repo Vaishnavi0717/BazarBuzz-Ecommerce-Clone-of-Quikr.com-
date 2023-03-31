@@ -12,40 +12,40 @@
 <body>
     <div class="sidebar">
         <div class="logo-details">
+          <a href="/index.html"><img src="/Assets/project_3.png" alt="">
+          </a>
           
-          <img src="/Assets/project_3.png" alt="">
-    
           
     
         </div>
           <ul class="nav-links">
             <li>
-              <a href="#" class="active">
+              <a href="mobile_form.html" class="active">
                 <i class='bx bx-grid-alt' ></i>
-                <span class="links_name">POST MOBILE</span>
+                <span class="links_name"  >POST MOBILE</span>
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="mobile_form.html">
                 <i class='bx bx-box' ></i>
-                <span class="links_name"> POST FURNITURE</span>
+                <span class="links_name" > POST FURNITURE</span>
                 
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="mobile_form.html">
                 <i class='bx bx-list-ul' ></i>
-                <span class="links_name">POST CAR</span>
+                <span class="links_name"  >POST CAR</span>
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="mobile_form.html">
                 <i class='bx bx-pie-chart-alt-2' ></i>
                 <span class="links_name">POST BIKES</span>
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="mobile_form.html">
                 <i class='bx bx-coin-stack' ></i>
                 <span class="links_name">POST HOME DECOR</span>
               </a>
@@ -95,9 +95,10 @@
           <i class='bx bx-menu sidebarBtn'></i>
           <span class="dashboard">Dashboard</span>
         </div>
-        <div class="search-box">
-          <input type="text" placeholder="Search...">
-          <i class='bx bx-search' ></i>
+        <div class="search-box" >
+          <input type="text" placeholder="Search..." id="searchBar">
+          <i class='bx bx-search' id="searchBtn"></i>
+          
         </div>
         <div class="profile-details">
           <!--<img src="images/profile.jpg" alt="">-->
@@ -194,10 +195,9 @@
 
 
 
-
-
-
     <script>
+
+    
      let sidebar = document.querySelector(".sidebar");
      let sidebarBtn = document.querySelector(".sidebarBtn");
      sidebarBtn.onclick = function() {
@@ -210,15 +210,7 @@
    </script>
    
 <script src="admin.js"></script>
-   <script>
-    // '.tbl-content' consumed little space for vertical scrollbar, scrollbar width depend on browser/os/platfrom. Here calculate the scollbar width .
-    // $(window).on("load resize ", function () {
-    //     var scrollWidth = $('.tbl-content').width() - $('.tbl-content table').width();
-    //     $('#tbl-header').css({ 'padding-right': scrollWidth });
-    // }).resize();
-
-    
-</script>
+   
 
 </body>
 </html>
