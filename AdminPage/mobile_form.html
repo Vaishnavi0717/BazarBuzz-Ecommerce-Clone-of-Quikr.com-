@@ -184,8 +184,8 @@ label {
               }
               addedProduct.push(data);
               localStorage.setItem("addData", JSON.stringify(addedProduct));
-            
-              fetch('https://quikr.onrender.com/Mobile', {
+              //https://quikr.onrender.com/Mobile
+              fetch('https://database-beta.vercel.app/Mobile', {
                 method: 'POST',
                 headers: {
                   'Content-Type': 'application/json'
