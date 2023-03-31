@@ -1,5 +1,5 @@
 ###
 GET https://quikr.onrender.com/Furniture/
-
+GET https://database-beta.vercel.app/Mobile
 ###
 DELETE https://quikr.onrender.com/Furniture/118
