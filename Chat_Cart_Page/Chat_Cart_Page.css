@@ -1,0 +1,106 @@
+#body{
+    background: rgb(237, 237, 237);
+    display: flex;
+    margin-left: 8%;
+    margin-right: 10%;
+}
+#container {
+    width: 70%;
+}
+#container > div{
+    /* border:  3px solid red; */
+    border: 1px solid rgb(234, 234, 234);
+    background: rgb(255, 255, 255);
+}
+#container > div > div{
+    display: flex;
+    padding: 20px;
+}
+#container > div > div img{
+    width: 15%;
+    height: 100%;
+    margin-right: 20px;
+}
+#container > div > div:nth-child(2)
+{
+    /* border: 3px solid red; */
+    height: 40px;
+    padding-top: 0px;
+    width: 30%;
+    justify-content: space-between;
+    align-items: center;
+}
+#container > div > div:nth-child(2) button
+{
+    border-radius: 20px;
+    margin-top: 0px;
+    font-size: 23px;
+    width: 40px;
+    /* padding-bottom: 10px; */
+    border: none;
+    cursor: pointer;
+}
+#container > div > div:nth-child(2) button:hover{
+    color: orange;
+}
+#container > div > div:nth-child(2) h5{
+    cursor: pointer;
+}
+#container > div > div:nth-child(2) h5:hover{
+    color: orange;
+}
+#container p{
+    font-size: 10px;
+}
+#right-side{
+    height: 264px;
+    background: white;
+    width: 300px;
+    margin-left: 10px;
+    position: fixed;
+    margin-top: 0px;
+    
+}
+#right-side > div:nth-child(1) p{
+    border: 1px solid rgb(223, 223, 223);
+    font-size: 12px;
+    margin-top: 0px;
+    color: rgb(129, 128, 128);
+    font-family:'Trebuchet MS', sans-serif;
+    padding: 15px;
+}
+#right-side > div:nth-child(2){
+    padding-left: 15px;
+    padding-right: 15px;
+    line-height: 9px;
+}
+#right-side > div:nth-child(2) p{
+    /* border: 3px solid red; */
+   font-size: 14px;
+   color: rgb(67, 67, 67);
+}
+#right-side > div:nth-child(2) div{
+    display: flex;
+    justify-content: space-between;
+}
+#right-side > div:nth-child(2) .color-green{
+    color: rgb(3, 144, 3);
+}
+#right-side > div:nth-child(3){
+    display: flex;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-top: 1px dotted rgb(194, 194, 194);
+    border-bottom: 1px dotted rgb(194, 194, 194);
+    justify-content: space-between;
+   
+}
+#right-side > div:nth-child(3) p:nth-child(2){
+    color: rgb(66, 66, 66);
+}
+#right-side > div:nth-child(4){
+    color: rgb(8, 162, 8);
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 13px;
+}
