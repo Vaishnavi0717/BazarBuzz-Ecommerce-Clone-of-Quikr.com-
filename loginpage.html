@@ -12,9 +12,15 @@
         }
         
 /* width=500px;
-left=50%; */
+div=40px;
+left=250px; 
+250px---290px
+trans   tranX -50% -20px 250-20px=230px;
+230px ---- 270px --230px;
+*/
 
 #login_container{
+    display: flex;
     position: absolute;
     top: 100px;
     left: 50%;
@@ -60,10 +66,11 @@ padding:0 10px;
     font-weight: 600;
 }
 
- /* #login_right{
-width:370px;
+ #login_right{
+width:390px;
 
-}  */
+
+} 
 
 
     </style>
@@ -107,6 +114,30 @@ width:370px;
 
       <div id="login_right">
         <!-- Right div -->
+        <div>
+            <h2>Login/Sign Up On Quikr</h2>
+            <p>Please provide your Mobile Number or Email to Login/Sign Up on Quikr</p>
+             <form action="">
+                <input type="number" placeholder="Enter Mobile Number / Email" >
+                <input type="text" name="username" id="username " placeholder="Name">
+                <input type="email" name="" id="email" placeholder="Email Address">
+                <input type="password" name="" id="password" placeholder="Password">
+               <label >
+                <input type="checkbox" name="" id="checkbox">
+               I have a referral code
+            </label>
+            <div>
+                <input type="text" name="refer" id="referral">
+                <p onclick="referral()">Apply</p>
+            </div>
+            <input type="submit" value="Continue">
+            </form>
+        </div>
+        <div>
+            <p></p>
+        </div>
+        <div></div>
+
       </div> 
       
 
