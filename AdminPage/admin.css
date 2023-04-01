@@ -9,7 +9,7 @@
 .sidebar{
   position: fixed;
   height: 100%;
-  width: 240px;
+  width:240px;
   background: black;
   transition: all 0.5s ease;
 }
@@ -20,7 +20,7 @@
   height: 80px;
   
 }
-.logo-details>img{
+.logo-details>a>img{
     height: 100%;
     width: 100%;
 }
@@ -310,6 +310,8 @@ td {
   color: black;
   border-bottom: solid 1px black;
 }
+
+
 
 
 
