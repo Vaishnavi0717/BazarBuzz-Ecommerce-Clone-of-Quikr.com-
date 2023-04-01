@@ -196,8 +196,8 @@
               </a>
             </ul>
           </div>
-
           <img src="/Assets/project_3.png" alt="" id="logo" />
+          
     
           <img src="https://www.svgrepo.com/show/26529/location-pin.svg" alt="" style="
                 height: 20px;
@@ -244,54 +244,46 @@
         </nav>
       </header>
 
-    <div>
-        <nav id="nav">
-            <ul>
-              <li>
-                MOBILES
-                <div class="subMenu">
-                  <div id="mobiles" class="submenuList"></div>
-                </div>
-              </li>
-              <li>
-                FURNITURE & DECOR
-                <div class="subMenu">
-                  <div id="furniture" class="submenuList"></div>
-                </div>
-              </li>
-              <li>
-                ELECTRONICS
-                <div class="subMenu">
-                  <div id="electronics" class="submenuList"></div>
-                </div>
-              </li>
-              <li>
-                HOME APPLIANCES
-                <div class="subMenu">
-                  <div id="home_appliances" class="submenuList"></div>
-                </div>
-              </li>
-              <li>
-                KIDS & TOYS
-                <div class="subMenu">
-                  <div id="kids_toys" class="submenuList"></div>
-                </div>
-              </li>
-              <li>
-                SPORTS, HOBBIES & FASHION
-                <div class="subMenu">
-                  <div id="sports_fashion" class="submenuList"></div>
-                </div>
-              </li>
-            </ul>
-          </nav>
-    </div>
-      
-      <b>
-        <hr />
-      </b>
     
 </body>
 
-<script src="HeaderSection.js" type="module"></script>
+
+
+<script>
+
+
+
+
+let searchBar = document.getElementById("searchBar");
+            let searchBtn = document.getElementById("searchBtn");
+          
+            searchBtn.addEventListener("click", () => {
+              if (searchBar.value == "mobile") {
+                window.location.href = "/Day4/products.html";
+              } else if (searchBar.value == "iphone") {
+                window.location.href = "/Day4/products.html";
+              } else if (searchBar.value == "Phone") {
+                window.location.href = "/Day4/products.html";
+              } else if (searchBar.value == "phone") {
+                window.location.href = "/Day4/products.html";
+              } else if (searchBar.value == "samsung") {
+                window.location.href = "/Day4/products.html";
+              } else if (searchBar.value == "Samsung") {
+                window.location.href = "/Day4/products.html";
+              } else if (searchBar.value == "Sofa set") {
+                window.location.href = "/Day4/products.html";
+              } else if (searchBar.value == "sofa sets") {
+                window.location.href = "/Day4/products.html";
+              } else if (searchBar.value == "Sofa sets") {
+                window.location.href = "/Day4/products.html";
+              } else if (searchBar.value == "Mobiles") {
+                window.location.href = "/Day4/products.html";
+              } else if (searchBar.value == "mobiles") {
+                window.location.href = "/Day4/products.html";
+              } else {
+                window.location.href = "none.html";
+              }
+            });
+
+</script>
 </html>
