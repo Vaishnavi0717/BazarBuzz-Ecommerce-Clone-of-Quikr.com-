@@ -1,29 +1,27 @@
-#cart_container{
+#body{
     background: rgb(237, 237, 237);
     display: flex;
     margin-left: 8%;
     margin-right: 10%;
-    
 }
-
-#cartcontainer {
+#container {
     width: 70%;
 }
-#cartcontainer > div{
+#container > div{
     /* border:  3px solid red; */
     border: 1px solid rgb(234, 234, 234);
     background: rgb(255, 255, 255);
 }
-#cartcontainer > div > div{
+#container > div > div{
     display: flex;
     padding: 20px;
 }
-#cartcontainer > div > div img{
+#container > div > div img{
     width: 15%;
     height: 100%;
     margin-right: 20px;
 }
-#cartcontainer > div > div:nth-child(2)
+#container > div > div:nth-child(2)
 {
     /* border: 3px solid red; */
     height: 40px;
@@ -32,7 +30,7 @@
     justify-content: space-between;
     align-items: center;
 }
-#cartcontainer > div > div:nth-child(2) button
+#container > div > div:nth-child(2) button
 {
     border-radius: 20px;
     margin-top: 0px;
@@ -42,16 +40,16 @@
     border: none;
     cursor: pointer;
 }
-#cartcontainer > div > div:nth-child(2) button:hover{
+#container > div > div:nth-child(2) button:hover{
     color: orange;
 }
-#cartcontainer > div > div:nth-child(2) h5{
+#container > div > div:nth-child(2) h5{
     cursor: pointer;
 }
-#cartcontainer > div > div:nth-child(2) h5:hover{
+#container > div > div:nth-child(2) h5:hover{
     color: orange;
 }
-#cartcontainer p{
+#container p{
     font-size: 10px;
 }
 #right-side{
@@ -59,7 +57,7 @@
     background: white;
     width: 300px;
     margin-left: 10px;
-    position: fixed;
+    position: relative;
     margin-top: 0px;
     
 }
@@ -70,23 +68,23 @@
     color: rgb(129, 128, 128);
     font-family:'Trebuchet MS', sans-serif;
     padding: 15px;
+
 }
 #right-side > div:nth-child(2){
     padding-left: 15px;
     padding-right: 15px;
     line-height: 9px;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 #right-side > div:nth-child(2) p{
     /* border: 3px solid red; */
    font-size: 14px;
    color: rgb(67, 67, 67);
-   margin-top: 20px;
 }
 #right-side > div:nth-child(2) div{
     display: flex;
     justify-content: space-between;
-    
+    margin-top: 20px;
 }
 #right-side > div:nth-child(2) .color-green{
     color: rgb(3, 144, 3);
@@ -95,10 +93,11 @@
     display: flex;
     margin-left: 15px;
     margin-right: 15px;
-    border-top: 1px dotted rgb(194, 194, 194);
-    border-bottom: 1px dotted rgb(194, 194, 194);
+    /* border-top: 1px dotted rgb(194, 194, 194); */
+    /* border-bottom: 1px dotted rgb(194, 194, 194); */
     justify-content: space-between;
     margin-top: 20px;
+    
    
 }
 #right-side > div:nth-child(3) p:nth-child(2){
@@ -109,64 +108,4 @@
     margin-left: 15px;
     margin-right: 15px;
     font-size: 13px;
-}
-
-
-
-/* header cssss-------------------> */
-
-.container{
-    width: 90%;
-    margin:auto;
-    background-color: rgb(245, 243, 243);
-    /* border: 1px solid red; */
-}
-.topline{
-    display: flex;
-    /* border: 1px solid rgb(119, 255, 0); */
-    justify-content: space-around;
-}
-
-.right{
-    display: flex;
-    /* border: 1px solid rgb(0, 174, 255); */
-    justify-content: space-around;
-    gap: 10px;
-}
-.left{
-    display: flex;
-    /* border: 1px solid rgb(255, 0, 230); */
-    justify-content: space-around;
-    gap: 10px;
-}
-
-.secondline{
-    display: flex;
-    /* border: 1px solid rgb(0, 255, 13); */
-    justify-content: space-around;
-    gap: 10px;
-    background-color: rgb(237, 235, 235);
-}
-.logo{
-    width: 10%;
-}
-.logo img{
-    width: 150%;
-    margin-top: 5px;
-}
-.search{
-    display: flex;
-}
-.box{
-    display: flex;
-    /* border: 1px solid blue; */
-}
-.all{
-    margin-top: 15px;
-}
-.addcity{
-      margin-top: 15px;
-}
-.loginregister{
-    margin-top: 15px;
 }
