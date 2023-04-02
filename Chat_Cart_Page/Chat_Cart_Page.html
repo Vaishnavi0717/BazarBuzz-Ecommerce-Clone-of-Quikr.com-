@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="/FooterSection/FooterSection.css">
   <script src="https://kit.fontawesome.com/3af5a307c6.js" crossorigin="anonymous"></script>
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
   <script>
     $(function () {
       $("#header").load("/HeaderSection/HeaderSection.html");
@@ -24,35 +25,35 @@
    
 </head>
 <body>
-    <div id="header"></div>
-    <br>
-    <br>
 
-    <div id="top">
-        <div id="body">
-            <div id="container">
-            <!-- apppending all product here -->
+    <div id="header"></div>
+    <div id="main">
+   
+   
+        <div id="cart-container">
+          <!-- Here Append All the cart Products  -->
         </div>
-        <aside>
-            <div id="right-side">
-                <div><p>PRICE DETAILS</p></div>
-                <div>
-                    <div><p>Price (<span id="item">0</span> items)</p><p>₹<span id="amount">0</span></p></div>
-                    <!-- <div><p>Discount</p><p class="color-green">-₹500</p></div> -->
-                    <div><p>Delivery Charges</p> <p class="color-green">Free</p></div>
-                </div>
-                <div><p>Total Amount</p><p>₹<span id="total-amount">0</span></p></div>
-                <!-- <div><p class="color-green">You will save ₹500 on this order</p></div> -->
-            </div>
-        </aside>
+         <div id="top">
+           <h1 id="h1">Shopping Bag</h1>
+           <marquee behavior="" direction="right">BAZARBUZZ</marquee>
+           <div id="total1">
+             <h1>Total products :- <span id="item">0</span></h1>
+             <h1 id="total"> Total cart Price:- ₹ <span id="cart-total">0</span></h1>
+             <button id="coupne">Apply Coupon</button>
+             <a href="/index.html" style="text-decoration: none;"><button id="buy">Place Order</button></a>
+     
+           </div>
+         
         </div>
-        
-    </div>
-    
+     
+        </div>
+         
+         
     <br>
     <br>
     <hr>
     <div id="footer"></div>
 </body>
 <script src="Chat_Cart_Page.js"></script>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </html>
