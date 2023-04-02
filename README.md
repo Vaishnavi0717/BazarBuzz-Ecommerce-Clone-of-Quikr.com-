@@ -19,6 +19,9 @@ CSS3
 JavaScript
 jQuery
 
+### Home Page Screenshot
+
+![image](https://github.com/Danish0611/curly-hobbies-5555/blob/main/Assets/landing%20page%201.png?raw=true)
 Screenshots
 Screenshot 1
 Screenshot 2
