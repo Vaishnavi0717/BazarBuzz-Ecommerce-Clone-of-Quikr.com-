@@ -198,6 +198,10 @@ location.textContent=mobiledata.location;
 let cartbtn=document.createElement("button")
 cartbtn.textContent="Add To Cart"
 
+cartbtn.addEventListener("click", ()=>{
+    alert("Your Product Has Been Added To Cart Sucessfully..!")
+})
+
 container.append(product)
 product.append(imagdiv, detaildiv)
 imagdiv.append(image) 
