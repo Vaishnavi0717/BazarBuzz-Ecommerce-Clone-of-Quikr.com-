@@ -4,10 +4,10 @@
 
 
 
-# curly-hobbies-5555
-Clone of https://www.quikr.com/bazaar
+# Project Code:- curly-hobbies-5555
 
 # Quikr Clone
+https://www.quikr.com/bazaar
 This project is a clone of the popular Indian online classifieds platform, Quikr. The aim of this project is to replicate the basic functionality and design of Quikr using HTML, CSS, and JavaScript.
 
 ## Demo
