@@ -19,14 +19,6 @@ CSS3
 JavaScript
 jQuery
 
-### Home Page Screenshot
-
-![image](https://github.com/Danish0611/curly-hobbies-5555/blob/main/Assets/landing%20page%201.png?raw=true)
-Screenshots
-Screenshot 1
-Screenshot 2
-Screenshot 3
-
 ## Contributing
 Contributions are welcome! 
 
@@ -41,4 +33,16 @@ Member 2:- Ankita Rj
 Member 3:- Sushree Subhashree Sahoo
 
 Member 4:- Vaishnavi Punekar
+
+### Home Page Screenshot
+
+![image](https://github.com/Danish0611/curly-hobbies-5555/blob/main/Assets/landing%20page%201.png?raw=true)
+
+
+### Admin Page Screenshot
+
+![image](https://github.com/Danish0611/curly-hobbies-5555/blob/main/Assets/Admin%20Page.png?raw=true)
+
+
+
 
