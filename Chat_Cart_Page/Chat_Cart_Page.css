@@ -1,27 +1,28 @@
-#body{
+#cart_container{
     background: rgb(237, 237, 237);
     display: flex;
     margin-left: 8%;
     margin-right: 10%;
+    
 }
-#container {
+#cartcontainer {
     width: 70%;
 }
-#container > div{
+#cartcontainer > div{
     /* border:  3px solid red; */
     border: 1px solid rgb(234, 234, 234);
     background: rgb(255, 255, 255);
 }
-#container > div > div{
+#cartcontainer > div > div{
     display: flex;
     padding: 20px;
 }
-#container > div > div img{
+#cartcontainer > div > div img{
     width: 15%;
     height: 100%;
     margin-right: 20px;
 }
-#container > div > div:nth-child(2)
+#cartcontainer > div > div:nth-child(2)
 {
     /* border: 3px solid red; */
     height: 40px;
@@ -30,7 +31,7 @@
     justify-content: space-between;
     align-items: center;
 }
-#container > div > div:nth-child(2) button
+#cartcontainer > div > div:nth-child(2) button
 {
     border-radius: 20px;
     margin-top: 0px;
@@ -40,16 +41,16 @@
     border: none;
     cursor: pointer;
 }
-#container > div > div:nth-child(2) button:hover{
+#cartcontainer > div > div:nth-child(2) button:hover{
     color: orange;
 }
-#container > div > div:nth-child(2) h5{
+#cartcontainer > div > div:nth-child(2) h5{
     cursor: pointer;
 }
-#container > div > div:nth-child(2) h5:hover{
+#cartcontainer > div > div:nth-child(2) h5:hover{
     color: orange;
 }
-#container p{
+#cartcontainer p{
     font-size: 10px;
 }
 #right-side{
@@ -73,15 +74,18 @@
     padding-left: 15px;
     padding-right: 15px;
     line-height: 9px;
+    margin-top: 10px;
 }
 #right-side > div:nth-child(2) p{
     /* border: 3px solid red; */
    font-size: 14px;
    color: rgb(67, 67, 67);
+   margin-top: 20px;
 }
 #right-side > div:nth-child(2) div{
     display: flex;
     justify-content: space-between;
+    
 }
 #right-side > div:nth-child(2) .color-green{
     color: rgb(3, 144, 3);
@@ -93,6 +97,7 @@
     border-top: 1px dotted rgb(194, 194, 194);
     border-bottom: 1px dotted rgb(194, 194, 194);
     justify-content: space-between;
+    margin-top: 20px;
    
 }
 #right-side > div:nth-child(3) p:nth-child(2){
