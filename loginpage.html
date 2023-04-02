@@ -5,75 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        *{
-            
-
-        }
-        
-/* width=500px;
-div=40px;
-left=250px; 
-250px---290px
-trans   tranX -50% -20px 250-20px=230px;
-230px ---- 270px --230px;
-*/
-
-#login_container{
-    display: flex;
-    position: absolute;
-    top: 100px;
-    left: 50%;
-    transform: translateX(-50%);
-width:650px;
-border: 1px solid red;
-height:450px;
-margin: auto;
-} 
-#left_parent{
-    height: 100%;
-    width:260px;
-    background-color: #f5fcff;
-    display: flex;
-    align-items: center;
-}       
-#left_main{
-display:flex;
-flex-direction:column;
-height: 335px;
-justify-content: space-between;
-padding:0 10px;
-}
-
-
-.card{
-    display:flex;
-    align-items: center;
-}
-#left_main img{
-    width:60px;
-    height:60px;
-    margin-right: 15px;
-}
-#left_main p{
-    font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 14px;
-    color: rgba(0, 0, 0,0.7);
-    line-height: 16px;
-}
-.heading{
-    margin-bottom: -10px;
-    font-weight: 600;
-}
-
- #login_right{
-width:390px;
-
-
-} 
-
-
-    </style>
+    
+<link rel="stylesheet" href="login.css">
 </head>
 <body>
     
@@ -82,7 +15,7 @@ width:390px;
         <div id="left_main">
            <!-- left -->
         
-         <div class="card">
+         <div class="logincard">
           <img src="./Images/Screenshot 2023-03-31 175809.png" alt="">
           <div class="info">
             <p class="heading">Manage your orders</p>
@@ -90,7 +23,7 @@ width:390px;
           </div>
          </div>
 
-         <div class="card">
+         <div class="logincard">
          <img src="./Images/Screenshot 2023-03-31 175850.png" alt="">
          <div class="info">
             <p class="info">
@@ -99,7 +32,7 @@ width:390px;
          </div>
          </div> 
       
-       <div class="card">
+       <div class="logincard">
         <img src="./Images/Screenshot 2023-03-31 180045.png" alt="">
         <div class="info">
         <p class="info">
@@ -118,33 +51,54 @@ width:390px;
             <h2>Login/Sign Up On Quikr</h2>
             <p>Please provide your Mobile Number or Email to Login/Sign Up on Quikr</p>
              <form action="">
-                <input type="number" placeholder="Enter Mobile Number / Email" >
-                <input type="text" name="username" id="username " placeholder="Name">
+                <input type="number" placeholder="Enter Mobile Number" id="number">
+                <input type="text" name="username" id="username" placeholder="Name">
                 <input type="email" name="" id="email" placeholder="Email Address">
                 <input type="password" name="" id="password" placeholder="Password">
-               <label >
+               <label>
                 <input type="checkbox" name="" id="checkbox">
                I have a referral code
             </label>
-            <div>
-                <input type="text" name="refer" id="referral">
+            <div id="refer">
+                <input type="text" name="refer" id="referral"placeholder="Enter your Referral Code">
                 <p onclick="referral()">Apply</p>
             </div>
-            <input type="submit" value="Continue">
+            <input type="submit" value="Continue" id="submit">
             </form>
         </div>
+        
         <div>
-            <p></p>
+            <!-- 2nd div start -->
+            <p id="otp">We will send the OTP to verify your number</p>
+            <p>By Submitting in you agree to <a href="#">T&C</a> and <a href="#">Privacy Policy</a></p>
+             <div>
+             <img src="./Images/price_icon.png" alt="">
+             <div>
+                 <h3>Earn upto <span>₹ 500 QCash</span></h3>
+                 <p>All you need to do is login or sign up!</p>
+                </div>
+             </div>
         </div>
-        <div></div>
 
+        <div>
+        <!-- 3rd div start -->
+        <p id="loginUse">LOGIN USING</p>
+        <div>
+               <div>
+                <img src="./Images/facebook-seeklogo.com.svg" alt="">
+                <p>Facebook</p>
+               </div>
+               <div>
+                <img src="./Images/google.svg" alt="">
+                <p>Google</p>
+               </div>
+        </div>
+    </div>
       </div> 
       
 
     </div>
    
 </body>
-<script>
-
-</script>
+<script src="login.js"></script>
 </html>
