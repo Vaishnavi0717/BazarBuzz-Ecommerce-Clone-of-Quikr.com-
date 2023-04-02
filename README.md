@@ -28,7 +28,7 @@ jQuery
 ## Contributing
 Contributions are welcome! 
 
-##This project was created by.
+## This project was created by.
 
 Team Lead:- Mohd Danish 
 
