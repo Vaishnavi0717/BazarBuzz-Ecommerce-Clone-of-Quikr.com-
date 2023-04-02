@@ -27,5 +27,10 @@ Screenshot 3
 ## Contributing
 Contributions are welcome! 
 
-This project was created by Your Name.
+###This project was created by.
+Team Lead:- Mohd Danish 
+Member 1:- Rohit Nayal
+Member 2:- Ankita Rj
+Member 3:- Sushree Subhashree Sahoo
+Member 4:- Vaishnavi Punekar
 
