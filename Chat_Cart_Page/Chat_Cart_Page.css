@@ -5,6 +5,7 @@
     margin-right: 10%;
     
 }
+
 #cartcontainer {
     width: 70%;
 }
@@ -108,4 +109,64 @@
     margin-left: 15px;
     margin-right: 15px;
     font-size: 13px;
+}
+
+
+
+/* header cssss-------------------> */
+
+.container{
+    width: 90%;
+    margin:auto;
+    background-color: rgb(245, 243, 243);
+    /* border: 1px solid red; */
+}
+.topline{
+    display: flex;
+    /* border: 1px solid rgb(119, 255, 0); */
+    justify-content: space-around;
+}
+
+.right{
+    display: flex;
+    /* border: 1px solid rgb(0, 174, 255); */
+    justify-content: space-around;
+    gap: 10px;
+}
+.left{
+    display: flex;
+    /* border: 1px solid rgb(255, 0, 230); */
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.secondline{
+    display: flex;
+    /* border: 1px solid rgb(0, 255, 13); */
+    justify-content: space-around;
+    gap: 10px;
+    background-color: rgb(237, 235, 235);
+}
+.logo{
+    width: 10%;
+}
+.logo img{
+    width: 150%;
+    margin-top: 5px;
+}
+.search{
+    display: flex;
+}
+.box{
+    display: flex;
+    /* border: 1px solid blue; */
+}
+.all{
+    margin-top: 15px;
+}
+.addcity{
+      margin-top: 15px;
+}
+.loginregister{
+    margin-top: 15px;
 }
