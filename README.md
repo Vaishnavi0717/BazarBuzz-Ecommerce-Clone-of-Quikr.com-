@@ -1,3 +1,9 @@
+### BAZARBUZZ
+
+![image](https://github.com/Danish0611/curly-hobbies-5555/blob/main/Assets/project_3.png?raw=true)
+
+
+
 # curly-hobbies-5555
 Clone of https://www.quikr.com/bazaar
 
@@ -34,10 +40,6 @@ Member 3:- Sushree Subhashree Sahoo
 
 Member 4:- Vaishnavi Punekar
 
-
-### Logo
-
-![image](https://github.com/Danish0611/curly-hobbies-5555/blob/main/Assets/project_3.png?raw=true)
 
 
 
