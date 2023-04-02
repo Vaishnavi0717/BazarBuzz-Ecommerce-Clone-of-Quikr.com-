@@ -1,7 +1,13 @@
-# curly-hobbies-5555
-Clone of https://www.quikr.com/bazaar
+### BAZARBUZZ
+
+![image](https://github.com/Danish0611/curly-hobbies-5555/blob/main/Assets/project_3.png?raw=true)
+
+
+
+# Project Code:- curly-hobbies-5555
 
 # Quikr Clone
+https://www.quikr.com/bazaar
 This project is a clone of the popular Indian online classifieds platform, Quikr. The aim of this project is to replicate the basic functionality and design of Quikr using HTML, CSS, and JavaScript.
 
 ## Demo
@@ -19,11 +25,6 @@ CSS3
 JavaScript
 jQuery
 
-Screenshots
-Screenshot 1
-Screenshot 2
-Screenshot 3
-
 ## Contributing
 Contributions are welcome! 
 
@@ -38,4 +39,19 @@ Member 2:- Ankita Rj
 Member 3:- Sushree Subhashree Sahoo
 
 Member 4:- Vaishnavi Punekar
+
+
+
+
+### Home Page Screenshot
+
+![image](https://github.com/Danish0611/curly-hobbies-5555/blob/main/Assets/landing%20page%201.png?raw=true)
+
+
+### Admin Page Screenshot
+
+![image](https://github.com/Danish0611/curly-hobbies-5555/blob/main/Assets/Admin%20Page.png?raw=true)
+
+
+
 
