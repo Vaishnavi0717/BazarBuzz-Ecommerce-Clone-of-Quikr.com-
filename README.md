@@ -41,7 +41,7 @@ Member :- Ankita Rj (https://github.com/AnkitaRaj11)
 Member :- Sushree Subhashree Sahoo (https://github.com/Sushree-01)
 
 
-![image](https://github.com/Danish0611/curly-hobbies-5555/blob/main/Assets/Progress%20(2).png?raw=true)
+![image](https://github.com/Danish0611/curly-hobbies-5555/blob/main/Assets/Progress.png?raw=true)
 
 
 
