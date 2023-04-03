@@ -30,15 +30,17 @@ Contributions are welcome!
 
 ## This project was created by.
 
-Team Lead:- Mohd Danish 
+Team Lead:- Mohd Danish (https://github.com/Danish0611)
 
-<!-- Member 1:- Rohit Nayal
+Member :- Vaishnavi Punekar (https://github.com/Vaishnavi0717)
 
-Member 2:- Ankita Rj
+Member :- Rohit Nayal (https://github.com/rohitnayal12)
 
-Member 3:- Sushree Subhashree Sahoo
+Member :- Ankita Rj (https://github.com/AnkitaRaj11)
 
-Member 4:- Vaishnavi Punekar -->
+Member :- Sushree Subhashree Sahoo (https://github.com/Sushree-01)
+
+
 
 
 
