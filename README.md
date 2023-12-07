@@ -11,7 +11,7 @@ https://www.quikr.com/bazaar
 This project is a clone of the popular Indian online classifieds platform, Quikr. The aim of this project is to replicate the basic functionality and design of Quikr using HTML, CSS, and JavaScript.
 
 ## Demo
-You can view a live demo of the project here. https://curly-hobbies-5555.netlify.app/
+You can view a live demo of the project here.https://bazzar-buzz-r55c1t4v9-vaishnavi0717s-projects.vercel.app/
 
 ## Features
 User registration and login
